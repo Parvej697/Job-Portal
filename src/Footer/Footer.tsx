@@ -3,14 +3,14 @@ import { footerLinks } from "../Data/Data";
 import { Divide } from "tabler-icons-react";
 
 const Footer =()=>{
-return <div className=" mt-20 pb-5 flex gap-5 justify-around">
+return <div className=" pt-20 pb-5 flex gap-5 justify-around bg-shiraz-800 font-[poppins]">
           <div className="w-1/4 flex flex-col gap-4">
               
                   <div className="flex  gap-3 items-center text-frangipani-200 ">
                      <IconDeviceImacSearch className="h-7 w-7"  stroke={1.5}/>
                      <div className="text-xl font-semibold"> JobFinder</div>
                   </div>
-                  <div className="text-sm text-shiraz-200">
+                  <div className="text-sm text-shiraz-200 text-justify">
                     Job portal with user profiles , skills updates , certifications, work experience and admin
                     job postings. 
                   </div>

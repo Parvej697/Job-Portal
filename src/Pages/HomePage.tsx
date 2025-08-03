@@ -1,5 +1,4 @@
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
+
 import Companies from "../LandingPage/Companies";
 import Dreamjob from "../LandingPage/DreamJob";
 import JobCategory from "../LandingPage/JobCategory";
@@ -9,15 +8,15 @@ import Working from "../LandingPage/Working";
 
 const HomePage =()=>{
      return(
-      <div className="min-h-[100vh] bg-shiraz-800 font-[poppins]">
-         <Header/>
+      <div className="min-h-[100vh] bg-shiraz-800 font-[poppins] px-4">
+         
          <Dreamjob/> 
          <Companies/>
          <JobCategory/>
          <Working/>
          <Testimonial/>
          <Subscribe/>
-         <Footer/>
+         
       </div>
         
      )

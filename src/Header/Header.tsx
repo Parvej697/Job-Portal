@@ -5,7 +5,7 @@ import Navlinks from "./Navlinks";
 
 
 const Header =()=>{
-    return  <div className="w-full text-white bg-shiraz-800 h-20 flex justify-between 
+    return  <div className="w-full text-white bg-shiraz-800 font-[poppins] h-20 flex justify-between 
     px-6 items-center">
        <div className="flex  gap-3 items-center text-frangipani-200 ">
       
