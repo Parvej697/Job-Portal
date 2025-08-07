@@ -24,8 +24,8 @@ return <div className="w-3/4 ml-0 mr-auto pl-0">
             </div>
             <Divider color="frangipani.3"  mx="xs" my="xl" />
             <div>
-                <Tabs  variant="outline" radius="lg" defaultValue="about">
-                   <Tabs.List className="border-b-2 mb-5 border-frangipani-300 [&_button]:!text-lg [&_button]:font-semibold [&_button[data-active='true']]:text-frangipani-300 [&_button[data-active='true']]:border-frangipani-300 [&_button[data-active='true']]:border-b-0">
+                <Tabs  variant="light" radius="lg" defaultValue="about">
+                   <Tabs.List className="border-b-2 mb-5 border-frangipani-300 [&_button]:!text-lg [&_button]:font-semibold [&_button[data-active='true']]:text-frangipani-300 ">
                      <Tabs.Tab value="about">About</Tabs.Tab>
                      <Tabs.Tab value="jobs">Jobs</Tabs.Tab>
                      <Tabs.Tab value="employees">Employees</Tabs.Tab>

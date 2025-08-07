@@ -8,8 +8,8 @@ return <div className="flex items-center px-16 py-10">
          <span className="text-frangipani-300">Job</span> together</div>
         <div className="text-lg text-shiraz-300">Success begins with a dream job. Start finding yours from thousands of job options here</div>
         <div className="flex gap-3 mt-5">
-            <TextInput className="bg-shiraz-700 rounded-lg py-1 px-2 text-frangipani-100 [&_input]:text-shiraz-100" variant="unstyled"label="Job Type" placeholder="Fulltime"/>
-            <TextInput className="bg-shiraz-700 rounded-lg py-1 px-2 text-frangipani-100 [&_input]:text-shiraz-100" variant="unstyled"label="Job Title" placeholder="Software Engineer"/>
+            <TextInput className="bg-shiraz-700 rounded-lg py-1 px-2 text-frangipani-100 [&_input]:text-shiraz-100 [&_input]:placeholder-shiraz-200" variant="unstyled"label="Job Type" placeholder="Fulltime"/>
+            <TextInput className="bg-shiraz-700 rounded-lg py-1 px-2 text-frangipani-100 [&_input]:text-shiraz-100 [&_input]:placeholder-shiraz-200" variant="unstyled"label="Job Title" placeholder="Software Engineer"/>
            <div className="flex items-center justify-center h-full w-20 bg-frangipani-400 text-shiraz-200 rounded-lg p-2 cursor-pointer hover:bg-frangipani-500">
             <IconSearch className="h-[85%] w-[85%] "/>
            </div>

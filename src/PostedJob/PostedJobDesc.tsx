@@ -9,7 +9,7 @@ return <div className="mt-5 w-3/4 px-5">
      </div>
      <div className="font-medium text-shiraz-300 mb-5">Indore, Madhya Pradesh</div>
      <div>
-         <Tabs  variant="outline" radius="lg" defaultValue="about">
+         <Tabs  variant="light" radius="lg" defaultValue="about">
                    <Tabs.List className="border-b-2 mb-5 border-frangipani-300 [&_button]:!text-lg [&_button]:font-semibold [&_button[data-active='true']]:text-frangipani-300 [&_button[data-active='true']]:border-frangipani-300 [&_button[data-active='true']]:border-b-0">
                      <Tabs.Tab value="overview">Overview</Tabs.Tab>
                      <Tabs.Tab value="applicants">Applicants</Tabs.Tab>

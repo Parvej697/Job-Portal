@@ -1,9 +1,11 @@
 import { IconBrandFacebook, IconBrandInstagram, IconBrandX, IconDeviceImacSearch } from "@tabler/icons-react";
 import { footerLinks } from "../Data/Data";
 import { Divide } from "tabler-icons-react";
+import { useLocation } from "react-router-dom";
 
 const Footer =()=>{
-return <div className=" pt-20 pb-5 flex gap-5 justify-around bg-shiraz-800 font-[poppins]">
+ const location = useLocation();
+    return location.pathname!="/sign-up" &&  location.pathname!="/login"? <div className=" pt-20 pb-5 flex gap-5 justify-around bg-shiraz-800 font-[poppins]">
           <div className="w-1/4 flex flex-col gap-4">
               
                   <div className="flex  gap-3 items-center text-frangipani-200 ">
@@ -30,6 +32,6 @@ return <div className=" pt-20 pb-5 flex gap-5 justify-around bg-shiraz-800 font-
                 }
             </div>)
           }
-       </div>
+       </div>:<></>
 }
 export default Footer;

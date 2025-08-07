@@ -1,5 +1,6 @@
 import { talents } from "../Data/JobTalent";
 import Sort from "../FindJobs/Sort";
+
 import TalentCard from "./TalentCard";
 
 const Talent =()=>{

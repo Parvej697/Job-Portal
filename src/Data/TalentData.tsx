@@ -1,4 +1,4 @@
-import { IconBriefcase, IconMapPin, IconRecharging, IconSearch } from "@tabler/icons-react";
+import {  IconMapPin, IconRecharging, IconSearch } from "@tabler/icons-react";
 
 export const searchFields = [
   {
@@ -101,12 +101,14 @@ export const profile = [
     {
       "name": "Full Stack Web Development",
       "issuer": "Microsoft",
-      "year": "2021"
+      "issueDate": "Mar 2021",
+      "certificateId":"MSI49567AZ"
     },
     {
       "name": "Docker Essentials",
       "issuer": "Amazon",
-      "year": "2022"
+      "issueDate": "Aug 2022",
+      "certificateId":"CB386867GG"
     }
   ]
 }
